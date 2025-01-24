@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/mcdonalds.json",
+  "@type" : "sc:Manifest",
+  "label" : "McDonald's",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A picture of fast food chain McDonald's logo",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Arianna Denitto, Monica Bongiorni",
+  "sequences" : [ {
+    "@id" : "http://a08a01e5-9dcc-47f8-9998-1c81d8f1c85a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://06f921e9-955a-4e25-b18d-fc25236f6361",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 600,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7ba58a6c-718f-46e1-aa00-b54a2eaa666f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 600,
+          "width" : 1024
+        },
+        "on" : "http://06f921e9-955a-4e25-b18d-fc25236f6361"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
