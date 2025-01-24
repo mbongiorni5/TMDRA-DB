@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in mbongiorni5/TMDRA-DB project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "mcdonalds"
+                ]
+            },
+            "height": 600,
+            "width": 1024,
+            "items": [
+                {
+                    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 32,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 64,
+                                                "height": 38
+                                            },
+                                            {
+                                                "width": 128,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 256,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 512,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 1024,
+                                                "height": 600
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1024,
+                                        "@id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 600,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
