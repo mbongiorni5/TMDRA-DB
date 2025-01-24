@@ -414,6 +414,87 @@
             ]
         },
         {
+            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "neworleans"
+                ]
+            },
+            "height": 694,
+            "width": 1217,
+            "items": [
+                {
+                    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 39,
+                                                "height": 22
+                                            },
+                                            {
+                                                "width": 77,
+                                                "height": 44
+                                            },
+                                            {
+                                                "width": 153,
+                                                "height": 87
+                                            },
+                                            {
+                                                "width": 305,
+                                                "height": 174
+                                            },
+                                            {
+                                                "width": 609,
+                                                "height": 347
+                                            },
+                                            {
+                                                "width": 1217,
+                                                "height": 694
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1217,
+                                        "@id": "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 694,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/canvas/",
             "type": "Canvas",
             "label": {
