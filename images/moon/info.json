@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 20,
+    "height" : 40
+  }, {
+    "width" : 40,
+    "height" : 80
+  }, {
+    "width" : 79,
+    "height" : 160
+  }, {
+    "width" : 158,
+    "height" : 320
+  }, {
+    "width" : 315,
+    "height" : 640
+  }, {
+    "width" : 630,
+    "height" : 1280
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 630,
+  "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/moon",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1280
+}

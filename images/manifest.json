@@ -333,6 +333,87 @@
             ]
         },
         {
+            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/moon/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "moon"
+                ]
+            },
+            "height": 1280,
+            "width": 630,
+            "items": [
+                {
+                    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/moon/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/moon/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mbongiorni5.github.io/TMDRA-DB/images/moon/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 40
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 80
+                                            },
+                                            {
+                                                "width": 79,
+                                                "height": 160
+                                            },
+                                            {
+                                                "width": 158,
+                                                "height": 320
+                                            },
+                                            {
+                                                "width": 315,
+                                                "height": 640
+                                            },
+                                            {
+                                                "width": 630,
+                                                "height": 1280
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 630,
+                                        "@id": "https://mbongiorni5.github.io/TMDRA-DB/images/moon",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1280,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mbongiorni5.github.io/TMDRA-DB/images/moon/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul/canvas/",
             "type": "Canvas",
             "label": {
