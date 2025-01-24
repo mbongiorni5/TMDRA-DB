@@ -333,6 +333,87 @@
             ]
         },
         {
+            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/money/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "money"
+                ]
+            },
+            "height": 600,
+            "width": 1200,
+            "items": [
+                {
+                    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/money/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/money/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mbongiorni5.github.io/TMDRA-DB/images/money/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 38,
+                                                "height": 19
+                                            },
+                                            {
+                                                "width": 75,
+                                                "height": 38
+                                            },
+                                            {
+                                                "width": 150,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 300,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 600,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 1200,
+                                                "height": 600
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1200,
+                                        "@id": "https://mbongiorni5.github.io/TMDRA-DB/images/money",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 600,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mbongiorni5.github.io/TMDRA-DB/images/money/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://mbongiorni5.github.io/TMDRA-DB/images/moon/canvas/",
             "type": "Canvas",
             "label": {
