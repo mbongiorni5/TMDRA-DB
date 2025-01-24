@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/Seoul",
+  "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/seoul",
   "@type" : "sc:Manifest",
   "label" : "Seoul",
   "metadata" : [ ],
