@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/armenia.json",
+  "@type" : "sc:Manifest",
+  "label" : "Armenia",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A picture of Armenia's map",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Arianna Denitto, Monica Bongiorni ",
+  "sequences" : [ {
+    "@id" : "http://958109ed-5ee8-4388-ad9f-530fafd836e3",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://de9d09b8-ba02-4a8e-a3ad-8bdb310ad839",
+      "@type" : "sc:Canvas",
+      "label" : "Armenia",
+      "height" : 568,
+      "width" : 905,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aaa2b789-2b24-46f8-a1f3-bce30cfa2c7f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/armenia/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/armenia",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 568,
+          "width" : 905
+        },
+        "on" : "http://de9d09b8-ba02-4a8e-a3ad-8bdb310ad839"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
