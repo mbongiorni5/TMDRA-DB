@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/crimea.json",
     "label" : "Crimea"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/britneyspears.json",
+    "label" : "Britney Spears"
   } ]
 }
