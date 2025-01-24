@@ -252,6 +252,87 @@
             ]
         },
         {
+            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "seoul"
+                ]
+            },
+            "height": 668,
+            "width": 1000,
+            "items": [
+                {
+                    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 32,
+                                                "height": 21
+                                            },
+                                            {
+                                                "width": 63,
+                                                "height": 42
+                                            },
+                                            {
+                                                "width": 125,
+                                                "height": 84
+                                            },
+                                            {
+                                                "width": 250,
+                                                "height": 167
+                                            },
+                                            {
+                                                "width": 500,
+                                                "height": 334
+                                            },
+                                            {
+                                                "width": 1000,
+                                                "height": 668
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1000,
+                                        "@id": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 668,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mbongiorni5.github.io/TMDRA-DB/images/seoul/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://mbongiorni5.github.io/TMDRA-DB/images/mcdonalds/canvas/",
             "type": "Canvas",
             "label": {
