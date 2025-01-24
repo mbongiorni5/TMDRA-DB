@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/britneyspears.json",
     "label" : "Britney Spears"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/armenia.json",
+    "label" : "Armenia"
   } ]
 }
