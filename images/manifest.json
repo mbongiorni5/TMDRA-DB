@@ -171,6 +171,87 @@
             ]
         },
         {
+            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/britneyspears/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "britneyspears"
+                ]
+            },
+            "height": 1016,
+            "width": 639,
+            "items": [
+                {
+                    "id": "https://mbongiorni5.github.io/TMDRA-DB/images/britneyspears/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mbongiorni5.github.io/TMDRA-DB/images/britneyspears/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mbongiorni5.github.io/TMDRA-DB/images/britneyspears/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 20,
+                                                "height": 32
+                                            },
+                                            {
+                                                "width": 40,
+                                                "height": 64
+                                            },
+                                            {
+                                                "width": 80,
+                                                "height": 127
+                                            },
+                                            {
+                                                "width": 160,
+                                                "height": 254
+                                            },
+                                            {
+                                                "width": 320,
+                                                "height": 508
+                                            },
+                                            {
+                                                "width": 639,
+                                                "height": 1016
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 639,
+                                        "@id": "https://mbongiorni5.github.io/TMDRA-DB/images/britneyspears",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1016,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mbongiorni5.github.io/TMDRA-DB/images/britneyspears/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://mbongiorni5.github.io/TMDRA-DB/images/crimea/canvas/",
             "type": "Canvas",
             "label": {
