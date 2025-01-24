@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/neworleans.json",
+  "@type" : "sc:Manifest",
+  "label" : "New Orleans",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Picture of American city New Orleans",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Arianna Denitto, Monica Bongiorni",
+  "sequences" : [ {
+    "@id" : "http://131d7e2c-391e-4f13-9f89-75246aa0716a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://cfd39755-48d7-46b7-9136-2f091365331d",
+      "@type" : "sc:Canvas",
+      "label" : "neworleans",
+      "height" : 694,
+      "width" : 1217,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://851afe87-e0bf-45d8-aee6-86a1bcf5bbb2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mbongiorni5.github.io/TMDRA-DB/images/neworleans",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 694,
+          "width" : 1217
+        },
+        "on" : "http://cfd39755-48d7-46b7-9136-2f091365331d"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
