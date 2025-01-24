@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/mcdonalds.json",
     "label" : "McDonald's"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mbongiorni5.github.io/TMDRA-DB/manifests/evacantarella.json",
+    "label" : "Eva Cantarella"
   } ]
 }
